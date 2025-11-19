@@ -33,6 +33,16 @@
 		EA6DD3222ECE0505000F6827 /* Fuji Provia 100F.cube in Resources */ = {isa = PBXBuildFile; fileRef = EA6DD30F2ECE0505000F6827 /* Fuji Provia 100F.cube */; };
 		EA6DD3232ECE0505000F6827 /* Fuji Sensia 100.cube in Resources */ = {isa = PBXBuildFile; fileRef = EA6DD3102ECE0505000F6827 /* Fuji Sensia 100.cube */; };
 		EA6DD3242ECE0505000F6827 /* Fuji Superia Xtra 400.cube in Resources */ = {isa = PBXBuildFile; fileRef = EA6DD3112ECE0505000F6827 /* Fuji Superia Xtra 400.cube */; };
+		EADD3F582ECE16FC00F31548 /* kodak_gold.png in Resources */ = {isa = PBXBuildFile; fileRef = EADD3F562ECE16FC00F31548 /* kodak_gold.png */; };
+		EADD3F592ECE16FC00F31548 /* kodak_color.png in Resources */ = {isa = PBXBuildFile; fileRef = EADD3F552ECE16FC00F31548 /* kodak_color.png */; };
+		EADD3F5A2ECE16FC00F31548 /* kodak_ultramax.png in Resources */ = {isa = PBXBuildFile; fileRef = EADD3F572ECE16FC00F31548 /* kodak_ultramax.png */; };
+		EADD3F622ECE185B00F31548 /* pro_image_100.png in Resources */ = {isa = PBXBuildFile; fileRef = EADD3F5E2ECE185B00F31548 /* pro_image_100.png */; };
+		EADD3F632ECE185B00F31548 /* fujicolor_200.png in Resources */ = {isa = PBXBuildFile; fileRef = EADD3F5B2ECE185B00F31548 /* fujicolor_200.png */; };
+		EADD3F642ECE185B00F31548 /* Tmax.png in Resources */ = {isa = PBXBuildFile; fileRef = EADD3F5F2ECE185B00F31548 /* Tmax.png */; };
+		EADD3F652ECE185B00F31548 /* Superia_400.png in Resources */ = {isa = PBXBuildFile; fileRef = EADD3F5D2ECE185B00F31548 /* Superia_400.png */; };
+		EADD3F662ECE185B00F31548 /* Ultramax_400.png in Resources */ = {isa = PBXBuildFile; fileRef = EADD3F602ECE185B00F31548 /* Ultramax_400.png */; };
+		EADD3F672ECE185B00F31548 /* kodakcolor_100.png in Resources */ = {isa = PBXBuildFile; fileRef = EADD3F612ECE185B00F31548 /* kodakcolor_100.png */; };
+		EADD3F682ECE185B00F31548 /* Superia.png in Resources */ = {isa = PBXBuildFile; fileRef = EADD3F5C2ECE185B00F31548 /* Superia.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +73,16 @@
 		EA6DD3152ECE0505000F6827 /* Kodak Vision 2383.cube */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Kodak Vision 2383.cube"; sourceTree = "<group>"; };
 		EA6DD3162ECE0505000F6827 /* LPP Tetrachrome 400.cube */ = {isa = PBXFileReference; lastKnownFileType = text; path = "LPP Tetrachrome 400.cube"; sourceTree = "<group>"; };
 		EA6DD3172ECE0505000F6827 /* Polaroid 600.cube */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Polaroid 600.cube"; sourceTree = "<group>"; };
+		EADD3F552ECE16FC00F31548 /* kodak_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kodak_color.png; sourceTree = "<group>"; };
+		EADD3F562ECE16FC00F31548 /* kodak_gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kodak_gold.png; sourceTree = "<group>"; };
+		EADD3F572ECE16FC00F31548 /* kodak_ultramax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kodak_ultramax.png; sourceTree = "<group>"; };
+		EADD3F5B2ECE185B00F31548 /* fujicolor_200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fujicolor_200.png; sourceTree = "<group>"; };
+		EADD3F5C2ECE185B00F31548 /* Superia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Superia.png; sourceTree = "<group>"; };
+		EADD3F5D2ECE185B00F31548 /* Superia_400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Superia_400.png; sourceTree = "<group>"; };
+		EADD3F5E2ECE185B00F31548 /* pro_image_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pro_image_100.png; sourceTree = "<group>"; };
+		EADD3F5F2ECE185B00F31548 /* Tmax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tmax.png; sourceTree = "<group>"; };
+		EADD3F602ECE185B00F31548 /* Ultramax_400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ultramax_400.png; sourceTree = "<group>"; };
+		EADD3F612ECE185B00F31548 /* kodakcolor_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kodakcolor_100.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +123,7 @@
 				EA6DD2F72ECDE8A6000F6827 /* Gallery */,
 				EA6DD2FA2ECDE8A6000F6827 /* UI */,
 				EA6DD3082ECE02FD000F6827 /* luts */,
+				EADD3F532ECE0E2A00F31548 /* Icons */,
 			);
 			path = FilmSimulator;
 			sourceTree = "<group>";
@@ -163,6 +184,23 @@
 				EA6DD3072ECE02FD000F6827 /* Kodak Ektachrome 64.cube */,
 			);
 			path = luts;
+			sourceTree = "<group>";
+		};
+		EADD3F532ECE0E2A00F31548 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				EADD3F552ECE16FC00F31548 /* kodak_color.png */,
+				EADD3F562ECE16FC00F31548 /* kodak_gold.png */,
+				EADD3F5B2ECE185B00F31548 /* fujicolor_200.png */,
+				EADD3F5C2ECE185B00F31548 /* Superia.png */,
+				EADD3F5D2ECE185B00F31548 /* Superia_400.png */,
+				EADD3F5E2ECE185B00F31548 /* pro_image_100.png */,
+				EADD3F5F2ECE185B00F31548 /* Tmax.png */,
+				EADD3F602ECE185B00F31548 /* Ultramax_400.png */,
+				EADD3F612ECE185B00F31548 /* kodakcolor_100.png */,
+				EADD3F572ECE16FC00F31548 /* kodak_ultramax.png */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,10 +269,20 @@
 				EA6DD30A2ECE02FD000F6827 /* Kodak Ektachrome 64.cube in Resources */,
 				EA6DD3182ECE0505000F6827 /* Fuji Eterna 3513.cube in Resources */,
 				EA6DD3192ECE0505000F6827 /* Kodak Ektachrome 65.cube in Resources */,
+				EADD3F582ECE16FC00F31548 /* kodak_gold.png in Resources */,
+				EADD3F592ECE16FC00F31548 /* kodak_color.png in Resources */,
+				EADD3F5A2ECE16FC00F31548 /* kodak_ultramax.png in Resources */,
 				EA6DD31A2ECE0505000F6827 /* Kodak Professional Portra 400.cube in Resources */,
 				EA6DD31B2ECE0505000F6827 /* Fuji Vivid 8543.cube in Resources */,
 				EA6DD31C2ECE0505000F6827 /* Fuji Eterna 8563.cube in Resources */,
 				EA6DD31D2ECE0505000F6827 /* Kodak Vision 2383.cube in Resources */,
+				EADD3F622ECE185B00F31548 /* pro_image_100.png in Resources */,
+				EADD3F632ECE185B00F31548 /* fujicolor_200.png in Resources */,
+				EADD3F642ECE185B00F31548 /* Tmax.png in Resources */,
+				EADD3F652ECE185B00F31548 /* Superia_400.png in Resources */,
+				EADD3F662ECE185B00F31548 /* Ultramax_400.png in Resources */,
+				EADD3F672ECE185B00F31548 /* kodakcolor_100.png in Resources */,
+				EADD3F682ECE185B00F31548 /* Superia.png in Resources */,
 				EA6DD31E2ECE0505000F6827 /* Polaroid 600.cube in Resources */,
 				EA6DD31F2ECE0505000F6827 /* Fuji Astia 100F.cube in Resources */,
 				EA6DD3202ECE0505000F6827 /* LPP Tetrachrome 400.cube in Resources */,
