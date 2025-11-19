@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA6DD2ED2ECDE7A9000F6827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6DD2EB2ECDE7A9000F6827 /* Assets.xcassets */; };
+		EA6DD2FB2ECDE8A6000F6827 /* FilterRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6DD2F42ECDE8A6000F6827 /* FilterRenderer.swift */; };
+		EA6DD2FC2ECDE8A6000F6827 /* FilmProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6DD2F32ECDE8A6000F6827 /* FilmProfile.swift */; };
+		EA6DD2FD2ECDE8A6000F6827 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6DD2F12ECDE8A6000F6827 /* ContentView.swift */; };
+		EA6DD2FE2ECDE8A6000F6827 /* FilmSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6DD2F92ECDE8A6000F6827 /* FilmSelectorView.swift */; };
+		EA6DD2FF2ECDE8A6000F6827 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6DD2EF2ECDE8A6000F6827 /* CameraPreviewView.swift */; };
+		EA6DD3002ECDE8A6000F6827 /* ControlDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6DD2F82ECDE8A6000F6827 /* ControlDial.swift */; };
+		EA6DD3012ECDE8A6000F6827 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6DD2EE2ECDE8A6000F6827 /* CameraManager.swift */; };
+		EA6DD3022ECDE8A6000F6827 /* FilmSimulatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6DD2F22ECDE8A6000F6827 /* FilmSimulatorApp.swift */; };
+		EA6DD3032ECDE8A6000F6827 /* PhotoLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6DD2F62ECDE8A6000F6827 /* PhotoLibraryManager.swift */; };
+		EA6DD3052ECDF6DB000F6827 /* LUTHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6DD3042ECDF6DB000F6827 /* LUTHelper.swift */; };
+		EA6DD3092ECE02FD000F6827 /* b.cube in Resources */ = {isa = PBXBuildFile; fileRef = EA6DD3062ECE02FD000F6827 /* b.cube */; };
+		EA6DD30A2ECE02FD000F6827 /* Kodak Ektachrome 64.cube in Resources */ = {isa = PBXBuildFile; fileRef = EA6DD3072ECE02FD000F6827 /* Kodak Ektachrome 64.cube */; };
+		EA6DD3182ECE0505000F6827 /* Fuji Eterna 3513.cube in Resources */ = {isa = PBXBuildFile; fileRef = EA6DD30D2ECE0505000F6827 /* Fuji Eterna 3513.cube */; };
+		EA6DD3192ECE0505000F6827 /* Kodak Ektachrome 65.cube in Resources */ = {isa = PBXBuildFile; fileRef = EA6DD3132ECE0505000F6827 /* Kodak Ektachrome 65.cube */; };
+		EA6DD31A2ECE0505000F6827 /* Kodak Professional Portra 400.cube in Resources */ = {isa = PBXBuildFile; fileRef = EA6DD3142ECE0505000F6827 /* Kodak Professional Portra 400.cube */; };
+		EA6DD31B2ECE0505000F6827 /* Fuji Vivid 8543.cube in Resources */ = {isa = PBXBuildFile; fileRef = EA6DD3122ECE0505000F6827 /* Fuji Vivid 8543.cube */; };
+		EA6DD31C2ECE0505000F6827 /* Fuji Eterna 8563.cube in Resources */ = {isa = PBXBuildFile; fileRef = EA6DD30E2ECE0505000F6827 /* Fuji Eterna 8563.cube */; };
+		EA6DD31D2ECE0505000F6827 /* Kodak Vision 2383.cube in Resources */ = {isa = PBXBuildFile; fileRef = EA6DD3152ECE0505000F6827 /* Kodak Vision 2383.cube */; };
+		EA6DD31E2ECE0505000F6827 /* Polaroid 600.cube in Resources */ = {isa = PBXBuildFile; fileRef = EA6DD3172ECE0505000F6827 /* Polaroid 600.cube */; };
+		EA6DD31F2ECE0505000F6827 /* Fuji Astia 100F.cube in Resources */ = {isa = PBXBuildFile; fileRef = EA6DD30C2ECE0505000F6827 /* Fuji Astia 100F.cube */; };
+		EA6DD3202ECE0505000F6827 /* LPP Tetrachrome 400.cube in Resources */ = {isa = PBXBuildFile; fileRef = EA6DD3162ECE0505000F6827 /* LPP Tetrachrome 400.cube */; };
+		EA6DD3212ECE0505000F6827 /* Agfa Portrait XPS 160.cube in Resources */ = {isa = PBXBuildFile; fileRef = EA6DD30B2ECE0505000F6827 /* Agfa Portrait XPS 160.cube */; };
+		EA6DD3222ECE0505000F6827 /* Fuji Provia 100F.cube in Resources */ = {isa = PBXBuildFile; fileRef = EA6DD30F2ECE0505000F6827 /* Fuji Provia 100F.cube */; };
+		EA6DD3232ECE0505000F6827 /* Fuji Sensia 100.cube in Resources */ = {isa = PBXBuildFile; fileRef = EA6DD3102ECE0505000F6827 /* Fuji Sensia 100.cube */; };
+		EA6DD3242ECE0505000F6827 /* Fuji Superia Xtra 400.cube in Resources */ = {isa = PBXBuildFile; fileRef = EA6DD3112ECE0505000F6827 /* Fuji Superia Xtra 400.cube */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA6DD2DA2ECDE403000F6827 /* FilmSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6DD2EB2ECDE7A9000F6827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA6DD2EE2ECDE8A6000F6827 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		EA6DD2EF2ECDE8A6000F6827 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		EA6DD2F12ECDE8A6000F6827 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA6DD2F22ECDE8A6000F6827 /* FilmSimulatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmSimulatorApp.swift; sourceTree = "<group>"; };
+		EA6DD2F32ECDE8A6000F6827 /* FilmProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmProfile.swift; sourceTree = "<group>"; };
+		EA6DD2F42ECDE8A6000F6827 /* FilterRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterRenderer.swift; sourceTree = "<group>"; };
+		EA6DD2F62ECDE8A6000F6827 /* PhotoLibraryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryManager.swift; sourceTree = "<group>"; };
+		EA6DD2F82ECDE8A6000F6827 /* ControlDial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlDial.swift; sourceTree = "<group>"; };
+		EA6DD2F92ECDE8A6000F6827 /* FilmSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmSelectorView.swift; sourceTree = "<group>"; };
+		EA6DD3042ECDF6DB000F6827 /* LUTHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LUTHelper.swift; sourceTree = "<group>"; };
+		EA6DD3062ECE02FD000F6827 /* b.cube */ = {isa = PBXFileReference; lastKnownFileType = text; path = b.cube; sourceTree = "<group>"; };
+		EA6DD3072ECE02FD000F6827 /* Kodak Ektachrome 64.cube */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Kodak Ektachrome 64.cube"; sourceTree = "<group>"; };
+		EA6DD30B2ECE0505000F6827 /* Agfa Portrait XPS 160.cube */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Agfa Portrait XPS 160.cube"; sourceTree = "<group>"; };
+		EA6DD30C2ECE0505000F6827 /* Fuji Astia 100F.cube */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Fuji Astia 100F.cube"; sourceTree = "<group>"; };
+		EA6DD30D2ECE0505000F6827 /* Fuji Eterna 3513.cube */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Fuji Eterna 3513.cube"; sourceTree = "<group>"; };
+		EA6DD30E2ECE0505000F6827 /* Fuji Eterna 8563.cube */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Fuji Eterna 8563.cube"; sourceTree = "<group>"; };
+		EA6DD30F2ECE0505000F6827 /* Fuji Provia 100F.cube */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Fuji Provia 100F.cube"; sourceTree = "<group>"; };
+		EA6DD3102ECE0505000F6827 /* Fuji Sensia 100.cube */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Fuji Sensia 100.cube"; sourceTree = "<group>"; };
+		EA6DD3112ECE0505000F6827 /* Fuji Superia Xtra 400.cube */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Fuji Superia Xtra 400.cube"; sourceTree = "<group>"; };
+		EA6DD3122ECE0505000F6827 /* Fuji Vivid 8543.cube */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Fuji Vivid 8543.cube"; sourceTree = "<group>"; };
+		EA6DD3132ECE0505000F6827 /* Kodak Ektachrome 65.cube */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Kodak Ektachrome 65.cube"; sourceTree = "<group>"; };
+		EA6DD3142ECE0505000F6827 /* Kodak Professional Portra 400.cube */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Kodak Professional Portra 400.cube"; sourceTree = "<group>"; };
+		EA6DD3152ECE0505000F6827 /* Kodak Vision 2383.cube */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Kodak Vision 2383.cube"; sourceTree = "<group>"; };
+		EA6DD3162ECE0505000F6827 /* LPP Tetrachrome 400.cube */ = {isa = PBXFileReference; lastKnownFileType = text; path = "LPP Tetrachrome 400.cube"; sourceTree = "<group>"; };
+		EA6DD3172ECE0505000F6827 /* Polaroid 600.cube */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Polaroid 600.cube"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA6DD2D72ECDE403000F6827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA6DD2D12ECDE403000F6827 = {
+			isa = PBXGroup;
+			children = (
+				EA6DD2DB2ECDE403000F6827 /* Products */,
+				EA6DD2EC2ECDE7A9000F6827 /* FilmSimulator */,
+			);
+			sourceTree = "<group>";
+		};
+		EA6DD2DB2ECDE403000F6827 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA6DD2DA2ECDE403000F6827 /* FilmSimulator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA6DD2EC2ECDE7A9000F6827 /* FilmSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				EA6DD2EB2ECDE7A9000F6827 /* Assets.xcassets */,
+				EA6DD2F02ECDE8A6000F6827 /* Camera */,
+				EA6DD2F12ECDE8A6000F6827 /* ContentView.swift */,
+				EA6DD2F22ECDE8A6000F6827 /* FilmSimulatorApp.swift */,
+				EA6DD2F52ECDE8A6000F6827 /* Filters */,
+				EA6DD2F72ECDE8A6000F6827 /* Gallery */,
+				EA6DD2FA2ECDE8A6000F6827 /* UI */,
+				EA6DD3082ECE02FD000F6827 /* luts */,
+			);
+			path = FilmSimulator;
+			sourceTree = "<group>";
+		};
+		EA6DD2F02ECDE8A6000F6827 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				EA6DD2EE2ECDE8A6000F6827 /* CameraManager.swift */,
+				EA6DD2EF2ECDE8A6000F6827 /* CameraPreviewView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		EA6DD2F52ECDE8A6000F6827 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				EA6DD3042ECDF6DB000F6827 /* LUTHelper.swift */,
+				EA6DD2F32ECDE8A6000F6827 /* FilmProfile.swift */,
+				EA6DD2F42ECDE8A6000F6827 /* FilterRenderer.swift */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		EA6DD2F72ECDE8A6000F6827 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				EA6DD2F62ECDE8A6000F6827 /* PhotoLibraryManager.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		EA6DD2FA2ECDE8A6000F6827 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EA6DD2F82ECDE8A6000F6827 /* ControlDial.swift */,
+				EA6DD2F92ECDE8A6000F6827 /* FilmSelectorView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EA6DD3082ECE02FD000F6827 /* luts */ = {
+			isa = PBXGroup;
+			children = (
+				EA6DD30B2ECE0505000F6827 /* Agfa Portrait XPS 160.cube */,
+				EA6DD30C2ECE0505000F6827 /* Fuji Astia 100F.cube */,
+				EA6DD30D2ECE0505000F6827 /* Fuji Eterna 3513.cube */,
+				EA6DD30E2ECE0505000F6827 /* Fuji Eterna 8563.cube */,
+				EA6DD30F2ECE0505000F6827 /* Fuji Provia 100F.cube */,
+				EA6DD3102ECE0505000F6827 /* Fuji Sensia 100.cube */,
+				EA6DD3112ECE0505000F6827 /* Fuji Superia Xtra 400.cube */,
+				EA6DD3122ECE0505000F6827 /* Fuji Vivid 8543.cube */,
+				EA6DD3132ECE0505000F6827 /* Kodak Ektachrome 65.cube */,
+				EA6DD3142ECE0505000F6827 /* Kodak Professional Portra 400.cube */,
+				EA6DD3152ECE0505000F6827 /* Kodak Vision 2383.cube */,
+				EA6DD3162ECE0505000F6827 /* LPP Tetrachrome 400.cube */,
+				EA6DD3172ECE0505000F6827 /* Polaroid 600.cube */,
+				EA6DD3062ECE02FD000F6827 /* b.cube */,
+				EA6DD3072ECE02FD000F6827 /* Kodak Ektachrome 64.cube */,
+			);
+			path = luts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA6DD2D92ECDE403000F6827 /* FilmSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6DD2E52ECDE407000F6827 /* Build configuration list for PBXNativeTarget "FilmSimulator" */;
+			buildPhases = (
+				EA6DD2D62ECDE403000F6827 /* Sources */,
+				EA6DD2D72ECDE403000F6827 /* Frameworks */,
+				EA6DD2D82ECDE403000F6827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilmSimulator;
+			packageProductDependencies = (
+			);
+			productName = FilmSimulator;
+			productReference = EA6DD2DA2ECDE403000F6827 /* FilmSimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA6DD2D22ECDE403000F6827 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					EA6DD2D92ECDE403000F6827 = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+				};
+			};
+			buildConfigurationList = EA6DD2D52ECDE403000F6827 /* Build configuration list for PBXProject "FilmSimulator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA6DD2D12ECDE403000F6827;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EA6DD2DB2ECDE403000F6827 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA6DD2D92ECDE403000F6827 /* FilmSimulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA6DD2D82ECDE403000F6827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6DD2ED2ECDE7A9000F6827 /* Assets.xcassets in Resources */,
+				EA6DD3092ECE02FD000F6827 /* b.cube in Resources */,
+				EA6DD30A2ECE02FD000F6827 /* Kodak Ektachrome 64.cube in Resources */,
+				EA6DD3182ECE0505000F6827 /* Fuji Eterna 3513.cube in Resources */,
+				EA6DD3192ECE0505000F6827 /* Kodak Ektachrome 65.cube in Resources */,
+				EA6DD31A2ECE0505000F6827 /* Kodak Professional Portra 400.cube in Resources */,
+				EA6DD31B2ECE0505000F6827 /* Fuji Vivid 8543.cube in Resources */,
+				EA6DD31C2ECE0505000F6827 /* Fuji Eterna 8563.cube in Resources */,
+				EA6DD31D2ECE0505000F6827 /* Kodak Vision 2383.cube in Resources */,
+				EA6DD31E2ECE0505000F6827 /* Polaroid 600.cube in Resources */,
+				EA6DD31F2ECE0505000F6827 /* Fuji Astia 100F.cube in Resources */,
+				EA6DD3202ECE0505000F6827 /* LPP Tetrachrome 400.cube in Resources */,
+				EA6DD3212ECE0505000F6827 /* Agfa Portrait XPS 160.cube in Resources */,
+				EA6DD3222ECE0505000F6827 /* Fuji Provia 100F.cube in Resources */,
+				EA6DD3232ECE0505000F6827 /* Fuji Sensia 100.cube in Resources */,
+				EA6DD3242ECE0505000F6827 /* Fuji Superia Xtra 400.cube in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA6DD2D62ECDE403000F6827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6DD2FB2ECDE8A6000F6827 /* FilterRenderer.swift in Sources */,
+				EA6DD3052ECDF6DB000F6827 /* LUTHelper.swift in Sources */,
+				EA6DD2FC2ECDE8A6000F6827 /* FilmProfile.swift in Sources */,
+				EA6DD2FD2ECDE8A6000F6827 /* ContentView.swift in Sources */,
+				EA6DD2FE2ECDE8A6000F6827 /* FilmSelectorView.swift in Sources */,
+				EA6DD2FF2ECDE8A6000F6827 /* CameraPreviewView.swift in Sources */,
+				EA6DD3002ECDE8A6000F6827 /* ControlDial.swift in Sources */,
+				EA6DD3012ECDE8A6000F6827 /* CameraManager.swift in Sources */,
+				EA6DD3022ECDE8A6000F6827 /* FilmSimulatorApp.swift in Sources */,
+				EA6DD3032ECDE8A6000F6827 /* PhotoLibraryManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA6DD2E32ECDE407000F6827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FV28YKA3B6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA6DD2E42ECDE407000F6827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FV28YKA3B6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA6DD2E62ECDE407000F6827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FV28YKA3B6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Required for film simulation.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Required to save your photos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EmanuelNK.FilmSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA6DD2E72ECDE407000F6827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FV28YKA3B6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Required for film simulation.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Required to save your photos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EmanuelNK.FilmSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA6DD2D52ECDE403000F6827 /* Build configuration list for PBXProject "FilmSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6DD2E32ECDE407000F6827 /* Debug */,
+				EA6DD2E42ECDE407000F6827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA6DD2E52ECDE407000F6827 /* Build configuration list for PBXNativeTarget "FilmSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6DD2E62ECDE407000F6827 /* Debug */,
+				EA6DD2E72ECDE407000F6827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA6DD2D22ECDE403000F6827 /* Project object */;
+}
